@@ -12,6 +12,4 @@ script:
   - git clone https://github.com/json-ld/json-ld.org.git spec
   - python tests/runtests.py -d spec/test-suite
 notifications:
-  email:
-    on_success: change
-    on_failure: change
+  email: false
